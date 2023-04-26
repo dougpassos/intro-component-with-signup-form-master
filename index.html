@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  -->
 </head>
 <body>
 
@@ -22,18 +24,20 @@
   <p>Watching scripted tutorials is great, 
   but understanding how developers think is invaluable.</p> 
   <div>
-    <p>Try it free 7 days then $20/mo. thereafter</p>
+    <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
   </div>
-  <form action="">
-    <input type="text" name="First Name" id="FirstName"> 
-    <input type="text" name="Last Name" id="LastName">
-    <input type="email" name="Email Address" id="EmailAddress">
-    <input type="password" name="Password" id="Password">
-    <input type="button" value="Claim your free trial">
-  </form>
-  <p>
-    By clicking the button, you are agreeing to our <strong>Terms and Services</strong>
-  </p>
+  <section id="formUser">
+    <form action="">
+      <input type="text" name="First Name" id="FirstName"> 
+      <input type="text" name="Last Name" id="LastName">
+      <input type="email" name="Email Address" id="EmailAddress">
+      <input type="password" name="Password" id="Password">
+      <input type="button" value="Claim your free trial" id="send">
+    </form>
+    <p>
+      By clicking the button, you are agreeing to our <strong>Terms and Services</strong>
+    </p>
+  </section>
   
   <footer>
     <p class="attribution">

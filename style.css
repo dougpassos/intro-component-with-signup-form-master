@@ -1,0 +1,41 @@
+html {
+  @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;1,400;1,600&family=Poppins:wght@400;500;600;700&display=swap');
+  font-family: 'Bitter', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  color:aliceblue
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+div {
+  background-color: hsl(248, 32%, 49%);
+}
+
+
+section#formUser {
+  background-color: aliceblue;
+  color: black;
+}
+
+section#formUser #send {
+ background-color: hsl(154, 59%, 51%);
+ color: aliceblue;
+}
+
+section#formUser p strong {
+    color: hsl(0, 100%, 74%);
+  }
