@@ -5,9 +5,17 @@ html {
 }
 
 body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10%;
   background-image: url(images/bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
-  color:aliceblue
+  color:aliceblue;
+  font-size: 16px;  
+}
+
+div#con__info {
+  border: purple solid;
 }
 
 h1 {
@@ -20,13 +28,20 @@ p {
   font-weight: 400;
 }
 
+div#con__form{
+  border: blue solid;
+}
 
-div {
+
+div#freeSevenDays{
+  text-align: center;
+  border-radius: 5%;
   background-color: hsl(248, 32%, 49%);
 }
 
 
 section#formUser {
+  flex-direction: column;
   background-color: aliceblue;
   color: black;
 }
@@ -36,6 +51,15 @@ section#formUser #send {
  color: aliceblue;
 }
 
+section#formUser p{
+  text-align: center;
+  font-size: smaller;
+}
+
 section#formUser p strong {
     color: hsl(0, 100%, 74%);
+  }
+
+  footer{
+    text-align: right;
   }
