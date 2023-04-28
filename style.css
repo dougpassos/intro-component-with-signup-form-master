@@ -4,39 +4,53 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 10%;
+body { 
+  padding: 5%;
   background-image: url(images/bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
   color:aliceblue;
+  height:400px;
   font-size: 16px;  
+}
+
+section#con__main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 400px;
+  gap: 10px;
 }
 
 div#con__info {
   border: purple solid;
+  text-align: left; 
+  padding: 35px;
 }
 
 h1 {
   font-style: normal;
   font-weight: 700;
+  font-size: xx-large;
 }
 
 p {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 div#con__form{
   border: blue solid;
+  padding: 1%;
 }
 
 
 div#freeSevenDays{
   text-align: center;
-  border-radius: 5%;
+  padding: 1px;
+  height: 50px;
+  border-radius: 5px;
   background-color: hsl(248, 32%, 49%);
+  margin-bottom: 15px;
 }
 
 
@@ -44,6 +58,15 @@ section#formUser {
   flex-direction: column;
   background-color: aliceblue;
   color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+section#formUser input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 section#formUser #send {
@@ -61,5 +84,7 @@ section#formUser p strong {
   }
 
   footer{
+    margin-top: 50px;
     text-align: right;
+    border: rgb(255, 0, 208) solid;
   }
